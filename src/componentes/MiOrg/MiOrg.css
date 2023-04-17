@@ -1,0 +1,24 @@
+.orgSection{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 110px ;
+    justify-items: center;
+    align-items: center;
+}
+.title{
+    border-bottom: 4px solid #6278f7;
+    color: #6278f7;
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.orgSection img{
+    width: 60px;
+    cursor: pointer;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
